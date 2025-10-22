@@ -1,0 +1,5 @@
+rsid,gene,trait,p_value,description,biological_process,semantic_match_gene,similarity_score
+rs429358,APOE,Alzheimer's disease,1.0000000000000001e-60,APOE variant strongly associated with Alzheimer's risk.,lipid transport and amyloid metabolism,APOE,0.2907850742340088
+rs7412,APOE,Alzheimer's disease,2.000000000000001e-45,APOE variant affecting lipid transport and amyloid processing.,lipid transport and amyloid metabolism,APOE,0.7040876150131226
+rs6733839,BIN1,Alzheimer's disease,3e-30,BIN1 implicated in tau pathology and synaptic endocytosis.,tau regulation and endocytosis,BIN1,0.6785520911216736
+rs11136000,CLU,Alzheimer's disease,5e-20,CLU involved in amyloid clearance and complement activation.,protein aggregation and complement system,CLU,0.5047819018363953

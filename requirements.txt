@@ -1,6 +1,6 @@
+numpy<2
 pandas
-numpy
+scikit-learn
 sentence-transformers
-faiss-cpu
 fastapi
 uvicorn

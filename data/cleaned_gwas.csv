@@ -1,0 +1,5 @@
+rsid,gene,trait,p_value,description
+rs429358,APOE,Alzheimer's disease,1.0000000000000001e-60,APOE variant strongly associated with Alzheimer's risk.
+rs7412,APOE,Alzheimer's disease,2.0000000000000003e-45,APOE variant affecting lipid transport and amyloid processing.
+rs6733839,BIN1,Alzheimer's disease,3e-30,BIN1 implicated in tau pathology and synaptic endocytosis.
+rs11136000,CLU,Alzheimer's disease,5e-20,CLU involved in amyloid clearance and complement activation.
