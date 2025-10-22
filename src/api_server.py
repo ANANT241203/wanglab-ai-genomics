@@ -1,5 +1,23 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 import pandas as pd
+
+app = FastAPI() 
+def _load():
+    return pd.read_csv("data/semantic_links.csv")
+
+@app.get("/health")
+def health():
+    return {"status":"ok"}
+
+@app.get("/search")
+def search(gene: str = "", p_max: float = 1.0):
+    data = _load()
+    m = pd.Series([True]*len(data))
+    if gene:
+        m &= data["gene"].astype(str).str.contains(gene, case=False, na=False)
+    m &= data["p_value"] <= p_max
+    return data[m].to_dict(orient="records")
+
 
 app = FastAPI(title="Genomic Curation API", version="0.1.0")
 
